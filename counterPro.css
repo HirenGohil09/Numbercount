@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(61, 255, 58);
+}
+#countlable{
+    align-items: center;
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btnCountainer{
+    text-align: center;
+    /* margin-top: 50%; */
+    
+}
+.buttons{
+    margin-left: 285px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(161, 161, 240);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .025s;
+}
+.buttons:hover{
+    background-color: rgb(25, 25, 210);
+}
+#increasebtn{
+    color:rgb(21, 255, 0);
+}
+#resetbtn{
+    color: white;
+}
+#decreasebtn{
+    color: red;
+}
